@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DomainModule }from './modules/domain/domain.module';
+import { DomainRoutingModule } from './modules/domain/domain-routing.module';
 
 @NgModule({
   declarations: [
