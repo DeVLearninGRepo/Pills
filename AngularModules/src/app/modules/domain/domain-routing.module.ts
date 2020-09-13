@@ -6,7 +6,7 @@ import { ComponentTwoComponent } from './components/component-two/component-two.
 
 const routes: Routes = [
   {
-    path: 'domain', component: IndexComponent, children: [
+    path: '', component: IndexComponent, children: [
       { path: 'one', component: ComponentOneComponent },
       { path: 'two', component: ComponentTwoComponent }
     ]
